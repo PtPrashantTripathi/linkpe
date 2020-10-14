@@ -1,2 +1,2 @@
 # LinkPe
-![](https://raw.githubusercontent.com/PtPrashantTripathi/LinkPe/main/linkpe.png)
+![](https://raw.githubusercontent.com/PtPrashantTripathi/LinkPe/main/logo.png)
