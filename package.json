@@ -1,0 +1,26 @@
+{
+  "name": "linkpe",
+  "version": "1.0.0",
+  "description": "will describe later",
+  "main": "index.html",
+  "scripts": {
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PtPrashantTripathi/LinkPe.git"
+  },
+  "keywords": [
+    "later"
+  ],
+  "author": "Pt. Prashant Tripathi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PtPrashantTripathi/LinkPe/issues"
+  },
+  "homepage": "https://github.com/PtPrashantTripathi/LinkPe#readme",
+  "dependencies": {
+    "qrious": "^4.0.2",
+	"bootstrap": "^4.5.3"
+  }
+}

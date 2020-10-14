@@ -8,12 +8,12 @@
 <body>
 <center>
 <br>
-<h3 style="color: #DAE0E2;">Scan Qr or Click on Pay Now :</h3>
+<h3 style="color: #DAE0E2;">Scan and Pay using any UPI supported Apps or Click on Pay Now :</h3>
 <h4 id="name"></h4>
 <canvas id="qr"></canvas>
 <br>
 <div style="margin-top: 30px;">
-<a href="upi://pay?pn=UPAYI&amp;pa=240@ybl&amp;cu=INR&amp;am=4.0">
+<a id="linkpe">
 <img src="upi.png" height="100">
 <br>
 <button>Click here to Pay Now</button>
@@ -21,26 +21,29 @@
 </div>
 <br><p style="color: #EAF0F1">Developed BY: <a href="https://ptprashanttripathi.github.io" style="color: cyan;">Pt. Prashant Tripathi</a></p>
 </center>
-
-<script src="qrious.js"></script>
+<script src="qrious/qrious.min.js"></script>
 <script>
-//upi://pay?pa=pt8435782545-2@okaxis&pn=Pt.%20Prashant%20Tripathi
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
-const pa = urlParams.get('pa')
-const pn = urlParams.get('pn')
-//const url= 
-document.getElementById("demo").innerHTML =   decodeURIComponent(pa);
-
-
-      (function() {
+if (window.location.search.indexOf('pa') > -1) {
+    const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	const pa = urlParams.get('pa');
+	const pn = urlParams.get('pn');
+	const url= 'upi://pay?pn='+pn+'&pa='+pa+'&cu=INR';
+	document.getElementById("name").innerHTML = decodeURIComponent(pn);
+	document.getElementById("linkpe").href = url;
+	(function() {
         var qr = new QRious({
           element: document.getElementById('qr'),
           background: '#fff',
           foreground: '#000',
           size: 250,
-          value: 'upi://pay?pn=UPAYI&pa=pt1998@ybl&cu=INR'
+		  level: 'H',
+          value: url
         });
       })();
+} else {
+    location.replace("linkpe.html?error");
+}
 </script>
-</body></html>
+</body>
+</html>
