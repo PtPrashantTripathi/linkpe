@@ -1,65 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Bootstrap 4, from LayoutIt!</title>
-
-    <meta name="description" content="Source code generated using layoutit.com">
-    <meta name="author" content="LayoutIt!">
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  </head>
-  <body>
-    <div class="container-fluid">
-	<div class="row">
-		<div class="col-md-4">
-			<ul class="nav">
-				<li class="nav-item">
-					<a class="nav-link active" href="#">Home</a>
-				</li>
-				<li class="nav-item dropdown ml-md-auto">
-					 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown link</a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-						 <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
-						<div class="dropdown-divider">
-						</div> <a class="dropdown-item" href="#">Separated link</a>
-					</div>
-				</li>
-			</ul>
-			<h3 class="text-center text-primary">
-				UPI LINK Generator
-			</h3>
-			<div class="card container-fluid p-3">
-			<div class="card-header">
-				<h5 class="text-primary">Bank Account Info</h5>
+<html>
+<head>
+	<!-- Primary Meta Tags -->
+	<title>LinkPe | UPI LINK Generator</title>
+	<meta name="title" content="LinkPe | UPI LINK Generator">
+	<meta name="description" content="LinkPe | UPI LINK Generator - https://github.com/PtPrashantTripathi/LinkPe">
+	<link rel="fluid-icon" href="https://repository-images.githubusercontent.com/299325888/77f6e880-034c-11eb-8ee1-b44403c583c2" title="PtPrashantTripathi | LinkPe" />
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://ptprashanttripathi.github.io/LinkPe">
+	<meta property="og:title" content="LinkPe | UPI LINK Generator">
+	<meta property="og:description" content="LinkPe | UPI LINK Generator - https://github.com/PtPrashantTripathi/LinkPe">
+	<meta property="og:image" content="https://repository-images.githubusercontent.com/299325888/77f6e880-034c-11eb-8ee1-b44403c583c2">
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://ptprashanttripathi.github.io/LinkPe">
+	<meta property="twitter:title" content="LinkPe | UPI LINK Generator">
+	<meta property="twitter:description" content="LinkPe | UPI LINK Generator - https://github.com/PtPrashantTripathi/LinkPe">
+	<meta property="twitter:image" content="https://repository-images.githubusercontent.com/299325888/77f6e880-034c-11eb-8ee1-b44403c583c2">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/main.css">
+	<!--Coded by Pt. Prashant Tripathi @ptprashanttripathi on 14th Oct 2020 -->
+<body>
+	<center>
+		<div class="card">
+			<div class="card-content">
+				<a href=""><img src="logo.png" height="70"></a>
+				<br>
+				<h4 style="color: #DAE0E2;">Create UPI Payment Request Link </h4>
+				<img src="upi.png" height="100">
+				<br>
+				<div id="linkpediv" style="display:none;">
+				<textarea class='text-box' id='linkpeURL'>https://ptprashanttripathi.github.io/linkpe?pn=prashant&pa=25@ybl&amt=200</textarea>
+				<br>
+				<button onclick='copyUpiUrl()' class='btn' id='btn-copy'>Copy Link</button>			
+				</div>
+				<form id="linkpeform">
+					<label style="color: #DAE1E2;">Enter Name:</label><br>
+					<input type="name" name="pn" class="text-box" placeholder="Enter your name" required><br>
+					<label style="color: #DAE1E2;">Enter Upi Id:</label><br>
+					<input type="email" name="pa" class="text-box" placeholder="Enter UPI Id" required><br>
+					<label style="color: #DAE1E2;">Enter Amount (Optional):</label><br>
+					<input type="number" name="amt" class="text-box" placeholder="INR"><br>
+					<button type="submit" class="btn">Submit</button>
+				</form>		
 			</div>
-			<div class="card-body">
-            <div class="form-group mb-3">
-              <label for="accName">Account Name</label>
-              <input type="text" class="smallinput form-control" id="accName" placeholder="" value="csaf">
-            </div>
-            <div class="form-group mb-3">
-              <label for="accNumber">Account Number</label>
-              <input type="text" class="smallinput form-control" id="accNumber" placeholder="" value="12334654646">
-            </div>
-            <div class="form-group mb-3">
-              <label for="accIFSC">IFSC Code</label>
-              <input type="text" class="smallinput form-control" id="accIFSC" placeholder="" value="asjahd121">
-            </div>
-            <button type="button" id="generateButton" class="btn btn-block btn-primary btn-lg">Generate QR Code</button>
-			</div>
-			</div>
-		
 		</div>
-	</div>
-</div>
+	</center>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
+</body>
+<script>
+if (window.location.search.indexOf('pa')> -1) {
+    const q = window.location.search;
+	const url= 'https://ptprashanttripathi.github.io/LinkPe'+q+'&cu=INR';
+	document.getElementById("linkpeURL").innerHTML =url;
+	document.getElementById("linkpediv").style.display="block";
+	document.getElementById("linkpeform").style.display="none";
+}
+function copyUpiUrl() {
+  var copylinkpe = document.getElementById("linkpeURL");
+  copylinkpe.select();
+  copylinkpe.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  document.getElementById("btn-copy").innerHTML = "Copied";
+}
+</script>
 </html>

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+body{
+	font-family: 'Balsamiq Sans', cursive;
+}
+.card{
+	width: 350px;
+}
+.text-box{
+	padding: 10px 20px;
+	margin: 10px 0;
+	box-sizing: border-box;
+}
+.btn{
+	background-color: #4CAF50; 
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 16px;
+}
+.btn:hover{
+	background-color: #019031;
+	padding: 12px 22px;
+}
+.card-content{
+	padding: 20px;
+}
