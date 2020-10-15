@@ -5,19 +5,19 @@
 	<title>LinkPe | UPI LINK Generator</title>
 	<meta name="title" content="LinkPe | UPI LINK Generator">
 	<meta name="description" content="LinkPe | UPI LINK Generator - https://github.com/PtPrashantTripathi/LinkPe">
-	<link rel="fluid-icon" href="https://raw.githubusercontent.com/PtPrashantTripathi/LinkPe/main/linkpe.png" title="PtPrashantTripathi | LinkPe" />
+	<link rel="fluid-icon" href="https://raw.githubusercontent.com/PtPrashantTripathi/LinkPe/main/img/linkpe.png" title="PtPrashantTripathi | LinkPe" />
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://ptprashanttripathi.github.io/LinkPe">
 	<meta property="og:title" content="LinkPe | UPI LINK Generator">
 	<meta property="og:description" content="LinkPe | UPI LINK Generator - https://github.com/PtPrashantTripathi/LinkPe">
-	<meta property="og:image" content="https://raw.githubusercontent.com/PtPrashantTripathi/LinkPe/main/linkpe.png">
+	<meta property="og:image" content="https://raw.githubusercontent.com/PtPrashantTripathi/LinkPe/main/img/linkpe.png">
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="https://ptprashanttripathi.github.io/LinkPe">
 	<meta property="twitter:title" content="LinkPe | UPI LINK Generator">
 	<meta property="twitter:description" content="LinkPe | UPI LINK Generator - https://github.com/PtPrashantTripathi/LinkPe">
-	<meta property="twitter:image" content="https://raw.githubusercontent.com/PtPrashantTripathi/LinkPe/main/linkpe.png">
+	<meta property="twitter:image" content="https://raw.githubusercontent.com/PtPrashantTripathi/LinkPe/main/img/linkpe.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/main.css">
@@ -26,15 +26,16 @@
 	<center>
 		<div class="card">
 			<div class="card-content">
-				<a href=""><img src="logo.png" height="70"></a>
+				<a href=""><img src="img/logo.png" height="50"></a>
 				<br>
 				<h4 style="color: #DAE0E2;">Create UPI Payment Request Link </h4>
-				<img src="upi.png" height="100">
+				<img src="img/upi.png" height="100">
 				<br>
 				<div id="linkpediv" style="display:none;">
-				<textarea class='text-box' id='linkpeURL'>https://ptprashanttripathi.github.io/linkpe?pn=prashant&pa=25@ybl&amt=200</textarea>
-				<br>
-				<button onclick='copyUpiUrl()' class='btn' id='btn-copy'>Copy Link</button>			
+				<textarea class='text-box' rows="4" cols="30" id='linkpeURL'>https://ptprashanttripathi.github.io/linkpe?pn=prashant&pa=25@ybl&amt=200</textarea>
+				<br><br>
+				<a onclick='copyUpiUrl()' class='btn' id='btn-copy'>Copy Link</a>
+				<a id='whatsapp' class="btn">Share Link</a>			
 				</div>
 				<form id="linkpeform">
 					<label style="color: #DAE1E2;">Enter Name:</label><br>
@@ -43,8 +44,13 @@
 					<input type="email" name="pa" class="text-box" placeholder="Enter UPI Id" required><br>
 					<label style="color: #DAE1E2;">Enter Amount (Optional):</label><br>
 					<input type="number" name="amt" class="text-box" placeholder="INR"><br>
-					<button type="submit" class="btn">Submit</button>
-				</form>		
+					<button type="submit" class="btn">Submit</button>					
+				</form>
+				<br>
+				<p style="color: #555">
+					<b>Developed BY : </b>
+					<a href="https://ptprashanttripathi.github.io" style="color: #999;">Pt. Prashant Tripathi</a>
+				</p>		
 			</div>
 		</div>
 	</center>
@@ -55,6 +61,7 @@ if (window.location.search.indexOf('pa')> -1) {
     const q = window.location.search;
 	const url= 'https://ptprashanttripathi.github.io/LinkPe'+q+'&cu=INR';
 	document.getElementById("linkpeURL").innerHTML =url;
+	document.getElementById("whatsapp").href="https://wa.me/?text="+encodeURI(url);
 	document.getElementById("linkpediv").style.display="block";
 	document.getElementById("linkpeform").style.display="none";
 }

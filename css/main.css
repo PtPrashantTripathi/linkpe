@@ -24,5 +24,8 @@ body{
 	padding: 12px 22px;
 }
 .card-content{
-	padding: 20px;
+	padding: 10px 20px;
+}
+a{
+	text-decoration: none;
 }
