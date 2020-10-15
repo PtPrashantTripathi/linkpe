@@ -61,7 +61,7 @@ if (window.location.search.indexOf('pa')> -1) {
     const q = window.location.search;
 	const url= 'https://ptprashanttripathi.github.io/LinkPe'+q+'&cu=INR';
 	document.getElementById("linkpeURL").innerHTML =url;
-	document.getElementById("whatsapp").href="https://wa.me/?text="+encodeURI(url);
+	document.getElementById("whatsapp").href="https://wa.me/?text="+encodeURIComponent(url);
 	document.getElementById("linkpediv").style.display="block";
 	document.getElementById("linkpeform").style.display="none";
 }
