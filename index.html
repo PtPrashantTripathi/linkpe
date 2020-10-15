@@ -27,8 +27,6 @@
 	<div class="card">
 		<div class="card-content">
 			<a href="linkpe.html?new"><img src="img/logo.png" height="50"></a>
-			<br>
-			<h4 style="color: #DAE0E2;">Scan and Pay using any UPI supported Apps or Click on Pay Now :</h3>
 			<h5 id="name" style="color: #101010;"></h4>
 			<canvas id="qr"></canvas>
 			<div style="margin-top: 2px;">
@@ -54,16 +52,20 @@ if (window.location.search.indexOf('pa') > -1) {
     const queryString = window.location.search;
 	const urlParams = new URLSearchParams(queryString);
 	const pn = urlParams.get('pn');
+	const pa = urlParams.get('pa');	
+	var user;
+	if(pn!=="") user=pn; 
+	else user=pa;
 	const url= 'upi://pay'+queryString;
-	document.getElementById("name").innerHTML = "To Pay "+decodeURIComponent(pn);
+	document.getElementById("name").innerHTML = "Click on PayNow or Scan Qr and Pay using any UPI Apps To Pay "+user;
 	document.getElementById("linkpe").href = url;
 	(function() {
         var qr = new QRious({
           element: document.getElementById('qr'),
           background: '#fff',
           foreground: '#000',
-          size: 250,
-		  level: 'H',
+          size: 200,
+	  level: 'H',
           value: url
         });
       })();
