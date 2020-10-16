@@ -32,22 +32,18 @@ React API to generate shareable UPI Payment links, just fill your UPI idand Crea
 ## 🚀 Screenshot 
 
 <table>
-<thead>
   <tr>
-    <th><img alt="Step 1" hight="100vh" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/1.jpg"></th>
-    <th><img alt="Step 2" hight="100vh" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/2.jpg"></th>
-    <th><img alt="Step 3" hight="100vh" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/3.jpg"></th>
-    <th><img alt="Step 4" hight="100vh" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/4.jpg"></th>
+    <td align="center"><img alt="Step 1" height="300" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/1.jpg"></td>
+    <td align="center"><img alt="Step 2" height="300" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/2.jpg"></td>
+    <td align="center"><img alt="Step 3" height="300" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/3.jpg"></td>
+    <td align="center"><img alt="Step 4" height="300" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/4.jpg"></td>
   </tr>
-</thead>
-<tbody>
   <tr>
-    <td styel="text-align:center;">fill deatils</td>
-    <td styel="text-align:center;">click on copy</td>
-    <td styel="text-align:center;">or share the link</td>
-    <td styel="text-align:center;">page genrated</td>
+    <td align="center"><b>Step 1</b></td>
+    <td align="center"><b>Step 2</b></td>
+    <td align="center"><b>Step 3</b></td>
+    <td align="center"><b>Step 4</b></td>
   </tr>
-</tbody>
 </table>
 
 > Try the tool: [LinkPe](https://ptprashanttripathi.github.io/linkpe)
