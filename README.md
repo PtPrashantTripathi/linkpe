@@ -1,4 +1,4 @@
-<p align="center"><a href="https://ptprashanttripathi.github.io/linkpe"><img alt="linkpe app" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/logo.png" width="150vw"/></a></p>
+<p align="center"><a href="https://ptprashanttripathi.github.io/linkpe"><img alt="linkpe app" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/logo.png" width="300vw"/></a></p>
 <h1 align="center">Movie Info App</h1>
 <p align="center">
 	<a href="https://github.com/PtPrashantTripathi/linkpe/graphs/contributors"><img alt="contributors-shield" src="https://img.shields.io/github/contributors/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
@@ -10,7 +10,7 @@
 	<a href="https://github.com/PtPrashantTripathi/linkpe/LICENSE"><img alt="License" src="https://img.shields.io/github/license/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/graphs/traffic"><img alt="Total-Downlode" src="https://img.shields.io/github/downloads/PtPrashantTripathi/linkpe/total.svg?style=flat-square"/></a>
-	<a href="https://ptprashanttripathi.github.io/linkpe"><img alt="Website Status" src="https://img.shields.io/website/http/ptprashanttripathi.github.io.svg?down_message=Down&up_message=Online&style=flat-square"/></a>
+	<a href="https://ptprashanttripathi.github.io/linkpe"><img alt="Website Status" src="https://img.shields.io/website/http/ptprashanttripathi.github.io/linkpe.svg?down_message=Down&up_message=Online&style=flat-square"/></a>
 </p>
 <p align="center">
 	<a href="https://ptprashanttripathi.github.io/linkpe">View Demo</a>·
@@ -22,7 +22,7 @@
 	<a href="https://paypal.me/PtPrashantTripathi"><img height='23' src="https://img.shields.io/badge/support-PayPal-blue?logo=PayPal&style=flat-square&label=Donate" alt="Donate"/></a>
 	<a href='https://ko-fi.com/ptprashanttripathi' target='_blank'><img height='23' width="100" src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' alt='Buy Coffee for ptprashanttripathi' /></a>
 	<a href="https://www.buymeacoffee.com/ptprashant09" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="23" width="100" style="border-radius:1px" /></a>
-	<a href="https://ptprashanttripathi.github.io/upi-link-generator" target="_blank"><img src="https://i.imgur.com/d829MCt.jpg" alt="Support Via UPI" width="93.28" height="23" style="border-radius:1px" /></a>
+	<a href="https://ptprashanttripathi.github.io/linkpe?pa=pt1998@ybl&pn=Pt.+Prashant+Tripati" target="_blank"><img src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/logo.png" alt="Support Via UPI" width="93.28" height="23" style="border-radius:1px" /></a>
 </p>
 
 ## About
