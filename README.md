@@ -34,10 +34,10 @@ React API to generate shareable UPI Payment links, just fill your UPI idand Crea
 <table>
 <thead>
   <tr>
-    <th><img alt="Step 1" hight="100" src=https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/1.jpg"></th>
-    <th><img alt="Step 2" hight="100" src=https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/2.jpg"></th>
-    <th><img alt="Step 3" hight="100" src=https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/3.jpg"></th>
-    <th><img alt="Step 4" hight="100" src=https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/4.jpg"></th>
+    <th><img alt="Step 1" hight="100vh" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/1.jpg"></th>
+    <th><img alt="Step 2" hight="100vh" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/2.jpg"></th>
+    <th><img alt="Step 3" hight="100vh" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/3.jpg"></th>
+    <th><img alt="Step 4" hight="100vh" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/4.jpg"></th>
   </tr>
 </thead>
 <tbody>
