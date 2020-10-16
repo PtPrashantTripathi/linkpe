@@ -1,5 +1,6 @@
 <p align="center"><a href="https://ptprashanttripathi.github.io/linkpe"><img alt="linkpe app" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/logo.png" width="300vw"/></a></p>
 <p align="center">
+	<a href="https://github.com/PtPrashantTripathi"><img alt="Devloper" src="https://img.shields.io/badge/Devloper-Pt.%20Prashant%20Tripathi-Success.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/releases"><img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/LICENSE"><img alt="License" src="https://img.shields.io/github/license/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
@@ -125,9 +126,6 @@ Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDU
 </p>
 
 ## Contributors ✨
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
-![Devloper](https://img.shields.io/badge/Devloper-Pt.%20Prashant%20Tripathi-Success.svg?style=flat-square)
 
 <table>
 	<tr>
