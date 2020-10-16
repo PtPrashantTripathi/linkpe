@@ -1,15 +1,15 @@
 <p align="center"><a href="https://ptprashanttripathi.github.io/linkpe"><img alt="linkpe app" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/logo.png" width="300vw"/></a></p>
 <p align="center">
-	<a href="https://github.com/PtPrashantTripathi/linkpe/network/members"><img alt="forks-shield" src="https://img.shields.io/github/forks/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
-	<a href="https://github.com/PtPrashantTripathi/linkpe/graphs/contributors"><img alt="contributors-shield" src="https://img.shields.io/github/contributors/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
-	<a href="https://github.com/PtPrashantTripathi/linkpe/stargazers"><img alt="stars-shield" src="https://img.shields.io/github/stars/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
-	<a href="https://github.com/PtPrashantTripathi/linkpe/issues"><img alt="issues-shield" src="https://img.shields.io/github/issues/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/releases"><img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/LICENSE"><img alt="License" src="https://img.shields.io/github/license/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
-	<a href="https://github.com/PtPrashantTripathi/linkpe/graphs/traffic"><img alt="Total-Downlode" src="https://img.shields.io/github/downloads/PtPrashantTripathi/linkpe/total.svg?style=flat-square"/></a>
 	<a href="https://ptprashanttripathi.github.io/linkpe"><img alt="Website Status" src="https://img.shields.io/website/http/ptprashanttripathi.github.io/linkpe.svg?down_message=Down&up_message=Online&style=flat-square"/></a>
+	<a href="https://github.com/PtPrashantTripathi/linkpe/stargazers"><img alt="stars-shield" src="https://img.shields.io/github/stars/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
+	<a href="https://github.com/PtPrashantTripathi/linkpe/network/members"><img alt="forks-shield" src="https://img.shields.io/github/forks/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
+	<a href="https://github.com/PtPrashantTripathi/linkpe/issues"><img alt="issues-shield" src="https://img.shields.io/github/issues/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
+	<a href="https://github.com/PtPrashantTripathi/linkpe/graphs/contributors"><img alt="contributors-shield" src="https://img.shields.io/github/contributors/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
+	<a href="https://github.com/PtPrashantTripathi/linkpe/graphs/traffic"><img alt="Total-Downlode" src="https://img.shields.io/github/downloads/PtPrashantTripathi/linkpe/total.svg?style=flat-square"/></a>
 </p>
 <p align="center">
 	<a href="https://ptprashanttripathi.github.io/linkpe">View Demo</a>·
@@ -32,10 +32,10 @@ Linkpe is a js based API to generate shareable UPI Payment links, just fill your
 
 <table>
   <tr>
-    <td align="center"><img alt="Step 1" height="300" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/1.jpg"></td>
-    <td align="center"><img alt="Step 2" height="300" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/2.jpg"></td>
-    <td align="center"><img alt="Step 3" height="300" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/3.jpg"></td>
-    <td align="center"><img alt="Step 4" height="300" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/4.jpg"></td>
+    <td align="center"><img alt="Step 1" height="300px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/1.jpg"></td>
+    <td align="center"><img alt="Step 2" height="300px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/2.jpg"></td>
+    <td align="center"><img alt="Step 3" height="300px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/3.jpg"></td>
+    <td align="center"><img alt="Step 4" height="300px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/4.jpg"></td>
   </tr>
   <tr>
     <td align="center"><b>Step 1</b></td>
@@ -44,6 +44,7 @@ Linkpe is a js based API to generate shareable UPI Payment links, just fill your
     <td align="center"><b>Step 4</b></td>
   </tr>
 </table>
+
 
 > Try the tool: [LinkPe](https://ptprashanttripathi.github.io/linkpe)
 
