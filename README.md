@@ -1,5 +1,4 @@
 <p align="center"><a href="https://ptprashanttripathi.github.io/linkpe"><img alt="linkpe app" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/logo.png" width="300vw"/></a></p>
-<h1 align="center">Link PE api</h1>
 <p align="center">
 	<a href="https://github.com/PtPrashantTripathi/linkpe/network/members"><img alt="forks-shield" src="https://img.shields.io/github/forks/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/graphs/contributors"><img alt="contributors-shield" src="https://img.shields.io/github/contributors/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
@@ -27,7 +26,7 @@
 
 ## About
 
-React API to generate shareable UPI Payment links, just fill your UPI idand Create shareable links for your UPI ID
+Linkpe is a js based API to generate shareable UPI Payment links, just fill your UPI idand Create shareable links for your UPI ID
 
 ## 🚀 Screenshot 
 
