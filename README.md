@@ -31,7 +31,24 @@ React API to generate shareable UPI Payment links, just fill your UPI idand Crea
 
 ## 🚀 Screenshot 
 
-![Screenshot](https://thumbs.gfycat.com/DearUnknownIrishdraughthorse-size_restricted.gif)
+<table>
+<thead>
+  <tr>
+    <th><img alt="Step 1" hight="100" src=https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/1.jpg"></th>
+    <th><img alt="Step 2" hight="100" src=https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/2.jpg"></th>
+    <th><img alt="Step 3" hight="100" src=https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/3.jpg"></th>
+    <th><img alt="Step 4" hight="100" src=https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/4.jpg"></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td styel="text-align:center;">fill deatils</td>
+    <td styel="text-align:center;">click on copy</td>
+    <td styel="text-align:center;">or share the link</td>
+    <td styel="text-align:center;">page genrated</td>
+  </tr>
+</tbody>
+</table>
 
 > Try the tool: [LinkPe](https://ptprashanttripathi.github.io/linkpe)
 
@@ -113,7 +130,7 @@ Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDU
 
 ## Contributors ✨
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 ![Devloper](https://img.shields.io/badge/Devloper-Pt.%20Prashant%20Tripathi-Success.svg?style=flat-square)
 
 <table>
@@ -128,11 +145,6 @@ Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDU
 		<td align="center">
 			<a href="https://github.com/ptprashanttripathi">
 				<img src="https://avatars2.githubusercontent.com/u/26687933?s=200&v=4" width="100px;" alt=""/>
-			</a>
-		</td>
-		<td align="center">
-			<a href="https://github.com/Ajaypatel-512">
-				<img src="https://avatars0.githubusercontent.com/u/67096679?s=200&v=4" width="100px" alt=""/>
 			</a>
 		</td>
 	</tr>
