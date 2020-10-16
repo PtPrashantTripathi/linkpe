@@ -31,20 +31,7 @@ Linkpe is a js based API to generate shareable UPI Payment links, just fill your
 
 ## 🚀 Screenshot 
 
-<table>
-  <tr>
-    <td align="center"><img alt="Step 1" width="200px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/1.jpg"></td>
-    <td align="center"><img alt="Step 2" width="200px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/2.jpg"></td>
-    <td align="center"><img alt="Step 3" width="200px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/3.jpg"></td>
-    <td align="center"><img alt="Step 4" width="200px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/4.jpg"></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Step 1</b></td>
-    <td align="center"><b>Step 2</b></td>
-    <td align="center"><b>Step 3</b></td>
-    <td align="center"><b>Step 4</b></td>
-  </tr>
-</table>
+![](https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/screenshot.jpg)
 
 
 > Try the tool: [LinkPe](https://ptprashanttripathi.github.io/linkpe)
