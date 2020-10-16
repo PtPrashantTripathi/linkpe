@@ -32,7 +32,7 @@
 				<img src="img/upi.png" height="100">
 				<br>
 				<div id="linkpediv" style="display:none;">
-				<textarea class='text-box' rows="4" cols="30" id='linkpeURL'>https://ptprashanttripathi.github.io/linkpe?pn=prashant&pa=25@ybl&amt=200</textarea>
+				<textarea class='text-box' rows="4" cols="30" id='linkpeURL'></textarea>
 				<br><br>
 				<a onclick='copyUpiUrl()' class='btn' id='btn-copy'>Copy Link</a>
 				<a id='whatsapp' class="btn">Share Link</a>			
@@ -59,7 +59,7 @@
 <script>
 if (window.location.search.indexOf('pa')> -1) {
     const q = window.location.search;
-	const url= 'https://ptprashanttripathi.github.io/LinkPe'+q+'&cu=INR';
+	const url= 'https://ptprashanttripathi.github.io/linkpe'+q+'&cu=INR';
 	document.getElementById("linkpeURL").innerHTML =url;
 	document.getElementById("whatsapp").href="https://wa.me/?text="+encodeURIComponent(url);
 	document.getElementById("linkpediv").style.display="block";
