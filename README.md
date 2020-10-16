@@ -1,8 +1,8 @@
 <p align="center"><a href="https://ptprashanttripathi.github.io/linkpe"><img alt="linkpe app" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/logo.png" width="300vw"/></a></p>
-<h1 align="center">Movie Info App</h1>
+<h1 align="center">Link PE api</h1>
 <p align="center">
-	<a href="https://github.com/PtPrashantTripathi/linkpe/graphs/contributors"><img alt="contributors-shield" src="https://img.shields.io/github/contributors/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/network/members"><img alt="forks-shield" src="https://img.shields.io/github/forks/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
+	<a href="https://github.com/PtPrashantTripathi/linkpe/graphs/contributors"><img alt="contributors-shield" src="https://img.shields.io/github/contributors/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/stargazers"><img alt="stars-shield" src="https://img.shields.io/github/stars/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/issues"><img alt="issues-shield" src="https://img.shields.io/github/issues/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
@@ -150,9 +150,12 @@ Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDU
 
 **Please contact me using one of the following:**
 
-Github: [Pt. Prashant Tripathi](https://github.com/ptprashanttripathi/)
-
-Email: [pt8435782545@gmail.com](mailto:pt8435782545@gmail.com)
+[<img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />](https://twitter.com/ptprashant09) 
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/ptprashanttripathi/) 
+[<img src = "https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/ptprashanttripathi/) 
+[<img src = "https://img.shields.io/badge/telegram-%233498DB.svg?&style=for-the-badge&logo=telegram&logoColor=white">](https://t.me/ptprashanttripathi/) 
+[<img src = "https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white">](https://www.facebook.com/ptprashanttripathi) 
+[<img src="https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white" />](https://dev.to/ptprashanttripathi)  
   
 <hr>
 <p align="center">
