@@ -33,10 +33,10 @@ Linkpe is a js based API to generate shareable UPI Payment links, just fill your
 
 <table>
   <tr>
-    <td align="center"><img alt="Step 1" height="300px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/1.jpg"></td>
-    <td align="center"><img alt="Step 2" height="300px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/2.jpg"></td>
-    <td align="center"><img alt="Step 3" height="300px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/3.jpg"></td>
-    <td align="center"><img alt="Step 4" height="300px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/4.jpg"></td>
+    <td align="center"><img alt="Step 1" width="200px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/1.jpg"></td>
+    <td align="center"><img alt="Step 2" width="200px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/2.jpg"></td>
+    <td align="center"><img alt="Step 3" width="200px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/3.jpg"></td>
+    <td align="center"><img alt="Step 4" width="200px" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/4.jpg"></td>
   </tr>
   <tr>
     <td align="center"><b>Step 1</b></td>
