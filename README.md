@@ -102,8 +102,8 @@ Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDU
 <p align="left">
 <a href="https://www.paypal.me/ptprashanttripathi"><img src="https://ionicabizau.github.io/badges/paypal.svg" alt="sponsor github profile"/>
 </a>
-<a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fptprashanttripathi.github.io%2Flinkpe">
-<img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fptprashanttripathi.github.io%2Flinkpe" alt="tweet"/>
+<a href="https://ptprashanttripathi.github.io/linkpe?pa=pt1998@ybl&pn=PtPrashantTripathi">
+<img src="https://github.com/PtPrashantTripathi/linkpe/blob/main/img/linkpebadge.svg" alt="tweet"/>
 </a>
 </p>
 <p align="left">
