@@ -80,7 +80,7 @@ npm start
 
 ## Usage
 
-change {varibal} and use as an js api 
+change {variable} and use as an js api 
 
 ```js
 https://ptprashanttripathi.github.io/linkpe/?pa={UPI ID}&pn={name}&amt={amount}
