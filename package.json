@@ -4,7 +4,7 @@
   "description": "will describe later",
   "main": "index.html",
   "scripts": {
-    "start": "index.html"
+    "start": "http-server -c-1 -p 8081"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,6 @@
   "homepage": "https://github.com/PtPrashantTripathi/LinkPe#readme",
   "dependencies": {
     "qrious": "^4.0.2",
-	"bootstrap": "^4.5.3"
+    "http-server": "^14.1.0"
   }
 }
