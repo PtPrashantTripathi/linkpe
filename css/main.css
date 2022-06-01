@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-body{
-	font-family: 'Balsamiq Sans', cursive;
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+
+body {
+	font-family: "Balsamiq Sans", cursive;
 }
-.card{
+
+.card {
 	width: 350px;
 }
-.text-box{
+
+.text-box {
 	padding: 10px 20px;
 	margin: 10px 0;
 	box-sizing: border-box;
 }
-.btn{
-	background-color: #4CAF50; 
+
+.btn {
+	background-color: #4caf50;
 	border: none;
 	color: white;
 	padding: 10px 20px;
@@ -19,13 +23,16 @@ body{
 	cursor: pointer;
 	font-size: 16px;
 }
-.btn:hover{
+
+.btn:hover {
 	background-color: #019031;
 	padding: 12px 22px;
 }
-.card-content{
+
+.card-content {
 	padding: 10px 20px;
 }
-a{
+
+a {
 	text-decoration: none;
 }

@@ -29,25 +29,24 @@
 
 Linkpe is a Node.js based API to generate shareable UPI Payment links, just fill your UPI deatils Create shareable links for your UPI ID
 
-## 🚀 Screenshot 
+## 🚀 Screenshot
 
 ![](https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/screenshot.jpg)
-
 
 > Try the tool: [LinkPe](https://ptprashanttripathi.github.io/linkpe)
 
 ## 🧐 Features
 
-- **Use anywhere, browser** 
-- *100% Free* 😍
-- *100% Secure* 🔐
-- *Scan and Pay Support* 👉
-- *No Hidden Charges* 🚫
-- *Set Fixed Amount* 💰
-- *No Data Storage* 🎉
-- *Simple Interface* 💥
-- *Supports all UPI Apps* ✅
-- *Best alternative for payment gateway bcoz they charges 2-5% per transaction*
+- **Use anywhere, browser**
+- _100% Free_ 😍
+- _100% Secure_ 🔐
+- _Scan and Pay Support_ 👉
+- _No Hidden Charges_ 🚫
+- _Set Fixed Amount_ 💰
+- _No Data Storage_ 🎉
+- _Simple Interface_ 💥
+- _Supports all UPI Apps_ ✅
+- _Best alternative for payment gateway bcoz they charges 2-5% per transaction_
 
 ## 🛠️ Installation Steps
 
@@ -77,10 +76,9 @@ npm start
 
 🌟 then wallah! You are all set.
 
-
 ## Usage
 
-change {variable} and use as an js api 
+change {variable} and use as an js api
 
 ```js
 https://ptprashanttripathi.github.io/linkpe/?pa={UPI ID}&pn={name}&amt={amount}
@@ -93,6 +91,7 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
 ## 💻 Built with
+
 - [Bootstrap](https://www.getbootstrap.com/)
 - [NODE.js](https://www.axios.com)
 - [qrious](https://jquery.com/)
@@ -129,17 +128,17 @@ Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDU
 			</a>
 		</td>
 	</tr>
-</table>  
+</table>
 
 ## Questions and Feedback
 
 **Please contact me using one of the following:**
 
-[![](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ptprashant09) 
-[![](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ptprashanttripathi/) 
-[![](https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ptprashanttripathi/) 
-[![](https://img.shields.io/badge/telegram-%233498DB.svg?&style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ptprashanttripathi/) 
-[![](https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/ptprashanttripathi) 
+[![](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ptprashant09)
+[![](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ptprashanttripathi/)
+[![](https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ptprashanttripathi/)
+[![](https://img.shields.io/badge/telegram-%233498DB.svg?&style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ptprashanttripathi/)
+[![](https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/ptprashanttripathi)
 [![](https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white)](https://dev.to/ptprashanttripathi)
 
 <p align="center">  
