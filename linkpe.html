@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<!-- Primary Meta Tags -->
 	<title>LinkPe | UPI LINK Generator</title>
 	<meta name="title" content="LinkPe | UPI LINK Generator">
 	<meta name="description" content="LinkPe | UPI LINK Generator - https://github.com/PtPrashantTripathi/linkpe">
-	<link rel="fluid-icon" href="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/linkpe.png" title="PtPrashantTripathi | LinkPe" />
+	<link rel="fluid-icon" href="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/linkpe.png"
+		title="PtPrashantTripathi | LinkPe" />
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://ptprashanttripathi.github.io/linkpe">
 	<meta property="og:title" content="LinkPe | UPI LINK Generator">
-	<meta property="og:description" content="LinkPe | UPI LINK Generator - https://github.com/PtPrashantTripathi/linkpe">
+	<meta property="og:description"
+		content="LinkPe | UPI LINK Generator - https://github.com/PtPrashantTripathi/linkpe">
 	<meta property="og:image" content="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/linkpe.png">
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="https://ptprashanttripathi.github.io/linkpe">
 	<meta property="twitter:title" content="LinkPe | UPI LINK Generator">
-	<meta property="twitter:description" content="LinkPe | UPI LINK Generator - https://github.com/PtPrashantTripathi/linkpe">
-	<meta property="twitter:image" content="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/linkpe.png">
+	<meta property="twitter:description"
+		content="LinkPe | UPI LINK Generator - https://github.com/PtPrashantTripathi/linkpe">
+	<meta property="twitter:image"
+		content="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/linkpe.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/main.css">
 	<!--Coded by Pt. Prashant Tripathi @ptprashanttripathi on 14th Oct 2020 -->
+
 <body>
 	<center>
 		<div class="card">
@@ -32,10 +38,10 @@
 				<img src="img/upi.png" height="100">
 				<br>
 				<div id="linkpediv" style="display:none;">
-				<textarea class='text-box' rows="4" cols="30" id='linkpeURL'></textarea>
-				<br><br>
-				<a onclick='copyUpiUrl()' class='btn' id='btn-copy'>Copy Link</a>
-				<a id='whatsapp' class="btn">Share Link</a>			
+					<textarea class='text-box' rows="4" cols="30" id='linkpeURL'></textarea>
+					<br><br>
+					<a onclick='copyUpiUrl()' class='btn' id='btn-copy'>Copy Link</a>
+					<a id='whatsapp' class="btn">Share Link</a>
 				</div>
 				<form id="linkpeform">
 					<label style="color: #DAE1E2;">Enter Name:</label><br>
@@ -44,33 +50,51 @@
 					<input type="email" name="pa" class="text-box" placeholder="Enter UPI Id" required><br>
 					<label style="color: #DAE1E2;">Enter Amount (Optional):</label><br>
 					<input type="number" name="am" class="text-box" placeholder="INR"><br>
-					<button type="submit" class="btn">Submit</button>					
+					<button type="submit" class="btn">Submit</button>
 				</form>
 				<br>
 				<p style="color: #555">
 					<b>Developed BY : </b>
 					<a href="https://ptprashanttripathi.github.io" style="color: #999;">Pt. Prashant Tripathi</a>
-				</p>		
+				</p>
 			</div>
 		</div>
 	</center>
 
 </body>
 <script>
-if (window.location.search.indexOf('pa')> -1) {
-    const q = window.location.search;
-	const url= 'https://prashanttripathi.me/linkpe'+q+'&cu=INR';
-	document.getElementById("linkpeURL").innerHTML =url;
-	document.getElementById("whatsapp").href="https://wa.me/?text=Hi%2C%20You%20can%20pay%20me%20by%20this%20Upi%20Payment%20Link%0A%20"+encodeURIComponent(url);
-	document.getElementById("linkpediv").style.display="block";
-	document.getElementById("linkpeform").style.display="none";
-}
-function copyUpiUrl() {
-  var copylinkpe = document.getElementById("linkpeURL");
-  copylinkpe.select();
-  copylinkpe.setSelectionRange(0, 99999)
-  document.execCommand("copy");
-  document.getElementById("btn-copy").innerHTML = "Copied";
-}
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	const pn = urlParams.get('pn');
+	const pa = urlParams.get('pa');
+	const am = urlParams.get('am');
+	if (pa !== null) {
+		// check prod or dev
+		var linkpeURL = window.location.hostname;
+		if (linkpeURL.includes("localhost")) {
+			console.log("dev");
+			linkpeURL = `${window.location.protocol}//${window.location.hostname}:${window.location.port}/index.html`;
+		} else {
+			linkpeURL = `${window.location.protocol}//${window.location.hostname}/linkpe`;
+		}
+
+		linkpeURL += `?pa=${pa}&pn=${pn}&cu=INR`;
+		if (!isNaN(am) && am !== null && am !== "") {
+			linkpeURL += `&am=${am}`;
+		}
+
+		document.getElementById("linkpeURL").innerHTML = linkpeURL;
+		document.getElementById("whatsapp").href = "https://wa.me/?text=Hi%2C%20You%20can%20pay%20me%20by%20this%20Upi%20Payment%20Link%0A%20" + encodeURIComponent(linkpeURL);
+		document.getElementById("linkpediv").style.display = "block";
+		document.getElementById("linkpeform").style.display = "none";
+	}
+	function copyUpiUrl() {
+		var copylinkpe = document.getElementById("linkpeURL");
+		copylinkpe.select();
+		copylinkpe.setSelectionRange(0, 99999)
+		document.execCommand("copy");
+		document.getElementById("btn-copy").innerHTML = "Copied";
+	}
 </script>
+
 </html>
