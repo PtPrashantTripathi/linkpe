@@ -1,11 +1,11 @@
-<p align="center"><a href="upi://pay"><img alt="linkpe app" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/logo.png" width="300vw"/></a></p>
+<p align="center"><a href="https://ptprashanttripathi.github.io/linkpe"><img alt="linkpe app" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/logo.png" width="300vw"/></a></p>
 <p align="center">
 	<a href="https://github.com/PtPrashantTripathi"><img alt="Devloper" src="https://img.shields.io/badge/Devloper-Pt.%20Prashant%20Tripathi-Success.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/releases"><img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/LICENSE"><img alt="License" src="https://img.shields.io/github/license/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
-	<a href="upi://pay"><img alt="Website Status" src="https://img.shields.io/website/http/ptprashanttripathi.github.io/linkpe.svg?down_message=Down&up_message=Online&style=flat-square"/></a>
+	<a href="https://ptprashanttripathi.github.io/linkpe"><img alt="Website Status" src="https://img.shields.io/website/http/ptprashanttripathi.github.io/linkpe.svg?down_message=Down&up_message=Online&style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/stargazers"><img alt="stars-shield" src="https://img.shields.io/github/stars/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/network/members"><img alt="forks-shield" src="https://img.shields.io/github/forks/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/issues"><img alt="issues-shield" src="https://img.shields.io/github/issues/ptprashanttripathi/linkpe.svg?style=flat-square"/></a>
@@ -13,7 +13,7 @@
 	<a href="https://github.com/PtPrashantTripathi/linkpe/graphs/traffic"><img alt="Total-Downlode" src="https://img.shields.io/github/downloads/PtPrashantTripathi/linkpe/total.svg?style=flat-square"/></a>
 </p>
 <p align="center">
-	<a href="upi://pay">View Demo</a>·
+	<a href="https://ptprashanttripathi.github.io/linkpe">View Demo</a>·
 	<a href="https://github.com/PtPrashantTripathi/linkpe/issues/new/choose">Report Bug</a>·
 	<a href="https://github.com/PtPrashantTripathi/linkpe/issues/new/choose">Request Feature</a>
 </p>
@@ -22,7 +22,7 @@
 	<a href="https://paypal.me/PtPrashantTripathi"><img height='23' src="https://img.shields.io/badge/support-PayPal-blue?logo=PayPal&style=flat-square&label=Donate" alt="Donate"/></a>
 	<a href='https://ko-fi.com/ptprashanttripathi' target='_blank'><img height='23' width="100" src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' alt='Buy Coffee for ptprashanttripathi' /></a>
 	<a href="https://www.buymeacoffee.com/ptprashant09" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="23" width="100" style="border-radius:1px" /></a>
-	<a href="upi://pay?pa=pt1997@ybl&pn=Pt.+Prashant+Tripati" target="_blank"><img src="https://raw.githubusercontent.com/PtPrashantTripathi/ptprashanttripathi.github.io/main/img/phonepe-logo-big.png" alt="Support Via UPI" height="23" style="border-radius:1px" /></a>
+	<a href="https://ptprashanttripathi.github.io/linkpe?pa=pt1998@ybl&pn=Pt.+Prashant+Tripati" target="_blank"><img src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/linkpebadge.svg" alt="Support Via UPI" height="23" style="border-radius:1px" /></a>
 </p>
 
 ## About
@@ -33,7 +33,7 @@ Linkpe is a Node.js based API to generate shareable UPI Payment links, just fill
 
 ![](https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/screenshot.jpg)
 
-> Try the tool: [LinkPe](upi://pay)
+> Try the tool: [LinkPe](https://ptprashanttripathi.github.io/linkpe)
 
 ## 🧐 Features
 
@@ -81,7 +81,7 @@ npm start
 change {variable} and use as an js api
 
 ```js
-upi://pay/?pa={UPI ID}&pn={name}&amt={amount}
+https://ptprashanttripathi.github.io/linkpe/?pa={UPI ID}&pn={name}&amt={amount}
 ```
 
 ## 🍰 Contributing
@@ -101,7 +101,7 @@ Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDU
 <p align="left">
 <a href="https://www.paypal.me/ptprashanttripathi"><img src="https://ionicabizau.github.io/badges/paypal.svg" alt="sponsor github profile"/>
 </a>
-<a href="upi://pay?pa=pt1998@ybl&pn=PtPrashantTripathi">
+<a href="https://ptprashanttripathi.github.io/linkpe?pa=pt1998@ybl&pn=PtPrashantTripathi">
 <img src="https://github.com/PtPrashantTripathi/linkpe/blob/main/img/linkpebadge.svg" alt="tweet"/>
 </a>
 </p>
