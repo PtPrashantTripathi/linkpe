@@ -1,5 +1,6 @@
 <p align="center"><a href="https://ptprashanttripathi.github.io/linkpe"><img alt="linkpe app" src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/logo.png" width="300vw"/></a></p>
 <p align="center">
+##Author XYZ
 	<a href="https://github.com/PtPrashantTripathi"><img alt="Devloper" src="https://img.shields.io/badge/Devloper-Pt.%20Prashant%20Tripathi-Success.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
 	<a href="https://github.com/PtPrashantTripathi/linkpe/releases"><img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/PtPrashantTripathi/linkpe.svg?style=flat-square"/></a>
